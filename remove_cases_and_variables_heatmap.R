@@ -1,8 +1,6 @@
 # This script creates heatmaps of the missing values and the cases and 
 # variables that are removed in all three data sets.
 
-library(foreign)
-
 # Replace values where respondent didn't give an informative answer
 SubNA1 <- function(x){ 
   # Args:

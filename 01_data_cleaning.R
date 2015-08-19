@@ -1,8 +1,6 @@
 # This script goes through the data cleaning steps and outputs our final data
 # sets.
 
-library(foreign)
-
 # Replace values where respondent didn't give an informative answer
 SubNA1 <- function(x){ 
   # Args:
