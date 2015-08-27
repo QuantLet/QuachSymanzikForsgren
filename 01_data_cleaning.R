@@ -1,5 +1,7 @@
-# This script goes through the data cleaning steps and outputs our final data
-# sets.
+# This script (only needs to be ran once) goes through the data cleaning steps 
+# and outputs our final data sets.
+
+library(foreign)
 
 # Replace values where respondent didn't give an informative answer
 SubNA1 <- function(x){ 
@@ -21,25 +23,6 @@ SubNA2 <- function(x){
   x <- gsub("9", NA, x)
   x
 }
-
-web <- "http://www.soulofthecommunity.org/sites/default/files/"
-zip1 <- "SOCTData2008Por.zip"
-zip2 <- "SOCTData2009por.zip"
-zip3 <- "SOCTData2010Por.zip"
-
-download.file(paste(web, zip1, sep = ""), 
-              destfile = "SOCTData2008Por.zip",
-              mode = "wb")
-download.file(paste(web, zip2, sep = ""), 
-              destfile = "SOCTData2009por.zip",
-              mode = "wb")
-download.file(paste(web, zip3, sep = ""), 
-              destfile = "SOCTData2010Por.zip",
-              mode = "wb")
-
-unzip("SOCTData2008Por.zip")
-unzip("SOCTData2009por.zip")
-unzip("SOCTData2010Por.zip")
 
 year08 <- read.spss("knightfoundation2008sotcdata.por",
                     use.value.labels = FALSE,

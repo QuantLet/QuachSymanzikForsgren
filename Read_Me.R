@@ -29,10 +29,8 @@
 # 3) Run Soul_of_the_Community.rnw in RStudio. Make sure this file is saved in 
 # the same folder where the figures are produced.
 
-# Install the foreign package
 source("01_data_cleaning.R")
 
-# Install the foreign package
 source("remove_cases_and_variables_heatmap.R")
 
 # Install the ggmap and maps packages
