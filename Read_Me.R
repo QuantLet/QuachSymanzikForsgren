@@ -10,11 +10,11 @@
 # 2) Run any of these scripts in any order to produce the figures in the 
 #    manuscript:
 #   
-# remove_cases_and_variables_heatmap.R
-# create_map_and_sample_size_chart.R
-# dotchart_top_3_variables.R
-# rf_all_communities.R ***Takes hours to run!!!
-# rf_and_pcp_gary.R
+# 02_remove_cases_and_variables_heatmap.R
+# 03_create_map_and_sample_size_chart.R
+# 04_dotchart_top_3_variables.R
+# 05_rf_all_communities.R ***Takes hours to run!!!
+# 06_rf_and_pcp_gary.R
 # 
 # These two scripts don't need to be ran in order to produce the manuscript, but 
 # the results were used to create some of the tables:
@@ -31,16 +31,16 @@
 
 source("01_data_cleaning.R")
 
-source("remove_cases_and_variables_heatmap.R")
+source("02_remove_cases_and_variables_heatmap.R")
 
 # Install the ggmap and maps packages
-source("create_map_and_sample_size_chart.R")
+source("03_create_map_and_sample_size_chart.R")
 
 # Install the ggplot2 and plyr packages
-source("dotchart_top_3_variables.R")
+source("04_dotchart_top_3_variables.R")
 
 # Install the randomForest, plyr, RColorBrewer, and ggplot2 packages
-source("rf_all_communities.R") 
+source("05_rf_all_communities.R") 
 
 # Install the RColorBrewer, GGally, randomForest, plyr, and ggplot2 packages
-source("rf_and_pcp_gary.R")
+source("06_rf_and_pcp_gary.R")
