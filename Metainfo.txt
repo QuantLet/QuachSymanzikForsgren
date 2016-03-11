@@ -1,0 +1,20 @@
+
+Name of Quantlet: DataExpo2013_QuachSymanzikForsgren
+
+Published in: 'Computational Statistics, Data Expo 2013 Special Issue, Volume 31, Issue 3, 2016'
+
+Description: 'This repository contains supplementary material for the paper "Soul of the Community: An Attempt to Assess Attachment to a Community" to enable the reader to reproduce the analysis.'
+
+Keywords: Machine Learning, Statistical Learning, Data Mining, Predictive Analytics, Random Forests, Archetypes, Knight Foundation
+
+See also: 'Other articles in Data Expo 2013 Special Issue, accessible at https://github.com/COSTDataExpo2013'
+
+Author: Anna Quach, Juergen Symanzik, Nicole Forsgren
+
+Submitted: August 27, 2015
+
+Datafile: knightfoundation2008sotcdata.por, knightfoundation2009sotcdata.por, knightfoundation2010sotcdata.por
+
+Main function: Read_Me.R ?
+
+Example: for your plots, graphs, results etc. - delete if not used
