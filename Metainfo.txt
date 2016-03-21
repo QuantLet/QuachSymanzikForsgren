@@ -18,10 +18,10 @@ Datafile: knightfoundation2008sotcdata.por, knightfoundation2009sotcdata.por, kn
 Main function: Read_Me.R
 
 Example:
--1: 'archetype_convex_hull_2008.png -- Fig. 7: Graphical representation of the three archetype solution for the year 2008.
+- 1: 'archetype_convex_hull_2008.png -- Fig. 7: Graphical representation of the three archetype solution for the year 2008.
 The three points labeled 1, 2, and 3 are the archetypes. Communities are colored
 by the dominating group according to the three attachment status levels.'
--2: 'percentile_profile_archetypes_2008.png -- Fig. 8: Graphical representation to aid with the interpretation of the three
+- 2: 'percentile_profile_archetypes_2008.png -- Fig. 8: Graphical representation to aid with the interpretation of the three
 archetype solution for the year 2008. The points represent the percentile for each
 archetype for each variable as compared to the average response to each community. 
 See Table 4 in Appendix B for the meaning of each variable.'
